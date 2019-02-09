@@ -12,7 +12,7 @@ export default () => {
               and I will get back to you as soon as possible!
             </p>
 
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="sentMessage" id="contactForm">
               <div className="control-group">
                 <div className="form-group floating-label-form-group controls">
                   <label>Name</label>
@@ -71,7 +71,7 @@ export default () => {
               </div>
               <br />
               <div id="success" />
-              <div classNameName="form-group">
+              <div className="form-group">
                 <button
                   type="submit"
                   className="btn btn-primary"
