@@ -1,9 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import contactBackground from '../images/contact-bg.jpg';
 
 export default () => {
   return (
-    <Layout>
+    <Layout
+      backgroundImage={contactBackground}
+      pageTitle="Contact Me"
+      pageSubtitle="Have questions? I have answers."
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10 mx-auto">

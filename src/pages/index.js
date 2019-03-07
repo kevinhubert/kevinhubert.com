@@ -1,9 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout';
+import homeBackground from '../images/home-bg.jpg';
 
 const IndexPage = () => (
   <div>
-    <Layout>
+    <Layout
+      backgroundImage={homeBackground}
+      pageTitle="Kevin Hubert"
+      pageSubtitle="Frontend Developer"
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10 mx-auto">
